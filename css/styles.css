@@ -671,6 +671,7 @@ li {
   border-radius: 4px;
 
   padding: 6px 22px 6px 22px;
+
 }
 
 .filter-button:hover,
@@ -743,6 +744,7 @@ li {
 }
 
 .portfolio-overflow {
+  display: block;
   position: absolute;
   top: 0;
   left: 0;
@@ -758,7 +760,7 @@ li {
   letter-spacing: 0.03em;
   color: #FFFFFF;
 
-  transform: translateY(100%);
+  transform: translateY(101%);
   transition-duration: 250ms;
 }
 
