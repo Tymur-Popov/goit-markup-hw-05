@@ -509,7 +509,7 @@ li {
   border-radius: 50%;
 
   transition: background-color var(--main-duration) var(--timing-function),
-    color var(--main-duration) var(--timing-function);
+    fill var(--main-duration) var(--timing-function);
 }
 
 .social-link:focus,
