@@ -844,8 +844,7 @@ li {
 .modal {
   position: absolute;
   left: 50%;
-  top: 25%;
-  transform: translate(-50%, -50%);
+  top: 50%;
   width: 528px;
   height: 581px;
   background: #ffffff;
@@ -855,8 +854,12 @@ li {
 }
 
 .modal-close-btn {
+  position: absolute;
+  top: 8px;
+  right: 8px;
   border-radius: 50%;
   border: 1px solid rgba(0, 0, 0, 0.1);
   background-color: transparent;
   cursor: pointer;
+  padding: 0 0;
 }
