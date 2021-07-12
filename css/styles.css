@@ -254,7 +254,7 @@ li {
 .header-icon {
   margin-right: 10px;
 
-  transition: color var(--main-duration) var(--timing-function);
+  transition: fill var(--main-duration) var(--timing-function);
 }
 /* HEADER END */
 
@@ -592,9 +592,6 @@ li {
   height: 100%;
 
   fill: var(--icon-fill-color);
-
-  /* transition: fill 3000ms var(--timing-function),
-    border 3000ms var(--timing-function); */
 
   transition-property: fill, border;
   transition-duration: var(--main-duration), var(--main-duration);
